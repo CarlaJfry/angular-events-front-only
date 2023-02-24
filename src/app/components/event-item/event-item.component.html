@@ -1,0 +1,14 @@
+<div class="card" id="cuerpo">
+    <div class="card-body" >
+        <img class="card-img-top" [src]="event.imageUrl" [alt]="event.descr" [title]="event.title" [style.height.px]="400">
+
+        <h4 class="card-title" [ngStyle]="{'text-decoration':subrayado}"><br>{{event.title | titlecase}}</h4>
+        <p class="card-text" [ngClass]="{'fondoRojo': esFondoRojo, 'fondoAzul': esFondoAzul}">{{event.descr}}</p>
+        <button class="btn btn-danger ml-3 float-right" (click)="deleteEvent()">Eliminar</button>
+    </div>
+    <div class="card-footer text-muted">{{event.releaseDate | date}}
+        <!-- <span class="card-footer"></span> -->
+        <span class="float-right">{{event.studio}}</span>
+        <div id="star" class="col"><star-rating [rating]="event.rating" (ratingChanged)="changeRating($event)"></star-rating></div>
+    </div>
+</div>

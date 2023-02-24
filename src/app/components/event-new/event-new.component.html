@@ -1,0 +1,38 @@
+<form #myForm id="formEventAdd" class="mt-4" (ngSubmit)="addEvent()">
+    <div class="form-group">
+      <label for="name">Nombre</label>
+      <input  id="c1" type="text" class="form-control" name="title"
+        [(ngModel)]="newEvent.title" placeholder="Enter name">
+    </div>
+    <div  class="form-group">
+      <label for="date">Fecha</label>
+      <input id="c2" type="date" class="form-control" name="date"
+        [(ngModel)]="newEvent.releaseDate">
+    </div>
+      <div class="form-group">
+      <label for="description">Descripción</label>
+      <textarea  id="c3" class="form-control" name="description" rows="3" [(ngModel)]="newEvent.descr"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="studio">Estudio</label>
+      <input  id="c4" type="string" class="form-control" name="studio"
+        [(ngModel)]="newEvent.studio"/>
+    </div>
+      <!--<div class="form-group">
+      <label for="image">Imagen</label>
+      <input id="c5" type="file" class="form-control" name="image"
+        [(ngModel)]="newEvent.imageUrl">
+    </div>-->
+    <div class="form-group">
+      <label for="imageUrl">Url de Imagen</label>
+      <input  id="c1" type="text" class="form-control" name="imagen"
+        [(ngModel)]="newEvent.imageUrl" placeholder="Introduce la Url de la imagen">
+    </div>
+    <div class="form-group">
+      <label for="name">Rating</label>
+      <input  id="c1" type="text" class="form-control" name="rating"
+        [(ngModel)]="newEvent.rating" placeholder="Enter name">
+    </div><br>
+    <button id="c6" type="submit" class="btn btn-dark">Añadir Evento</button>
+  </form>
+<!--#fileImage (change)="changeImage(fileImage)"-->

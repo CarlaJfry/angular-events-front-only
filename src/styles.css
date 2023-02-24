@@ -1,0 +1,10 @@
+body{
+    background-image: url(../src/assets/negro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+}

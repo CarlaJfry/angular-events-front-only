@@ -1,0 +1,12 @@
+#c1, #c2, #c3, #c4, #c5{
+    background: rgb(182,18,18);
+background: radial-gradient(circle, rgba(182,18,18,0.6388305322128851) 0%, rgba(0,0,0,0.8153011204481793) 50%);
+    color: rgb(255, 255, 255);
+}
+#c6, #c7{
+    background-color: rgba(255, 0, 0, 0.729);
+    color: rgb(255, 255, 255);
+}
+label{
+    color: white;
+}

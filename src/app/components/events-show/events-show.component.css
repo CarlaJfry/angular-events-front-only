@@ -1,0 +1,40 @@
+.fondoRojo {
+  background-color: red;
+  color: white;
+}
+
+.fondoAzul {
+  background-color: blue;
+  color: white;
+}
+#noHay{
+  color: white;
+}
+#nuevoEv{
+  margin-right: 15px;
+}
+#buscar{
+  place-items: auto;
+  margin-left: 200px;
+  margin-right: 20px;
+}
+#barrita{
+  background: rgb(131,0,0);
+background: radial-gradient(circle, rgba(131,0,0,0.8713235294117647) 0%, rgba(117,0,0,1) 0%, rgba(75,0,0,1) 20%, rgba(39,0,0,1) 59%, rgba(0,0,0,1) 72%);
+}
+#letras, #letras2{
+  color: white;
+}
+#add-event-btn {
+  margin-left: 5px;
+}
+
+#search-event-btn {
+  padding-top: 5%;
+  padding-right: 1em;
+}
+#hideForm{
+  margin-left: 5px;
+  padding-right: 1em;
+}
+
